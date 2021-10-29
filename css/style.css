@@ -1,0 +1,745 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&family=Playfair+Display&display=swap");
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  height: 750px;
+  background: url("../assets/img/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  height: 25px;
+  margin-top: 25px;
+}
+
+body header nav .menu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 25px;
+}
+
+body header nav .menu-item .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25%;
+  height: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body header nav .menu-item .logo a {
+  text-decoration: none;
+  color: black;
+  padding-left: 20px;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+body header nav .menu-item .logo img {
+  padding-left: 20px;
+}
+
+body header nav .menu-item .menu-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+}
+
+body header nav .menu-item .menu-link a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  color: black;
+  padding-right: 50px;
+}
+
+body header .header-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  height: auto;
+  margin-top: 140px;
+  padding-bottom: 30px;
+}
+
+body header .header-text h1 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 5px;
+  text-align: center;
+  font-size: 50px;
+}
+
+body header .header-text p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+body header .header-text button {
+  color: white;
+  background: #1005FF;
+  padding: 20px 50px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 20px;
+}
+
+body .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  height: auto;
+  background-color: #95989a10;
+  margin-bottom: 200px;
+  padding-top: 60px;
+}
+
+body .about .about-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  height: 500px;
+}
+
+body .about .about-text .about-text-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  height: auto;
+}
+
+body .about .about-text .about-text-content h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+body .about .about-text .about-text-content p {
+  font-family: "Montserrat", sans-serif;
+}
+
+body .about .about-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 500px;
+}
+
+body .products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+body .products .products-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+body .products .products-title h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+body .products .products-title a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+body .products .products-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+body .products .products-item .products-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  height: auto;
+}
+
+body .products .products-item .products-left img#photos-1 {
+  width: 100%;
+  height: 84%;
+}
+
+body .products .products-item .products-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  height: auto;
+}
+
+body .products .products-item .products-right .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 95%;
+  height: 300px;
+}
+
+body .products .products-item .products-right .row .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+  height: 200px;
+}
+
+body .products .products-item .products-right .row .column #photos-2 {
+  width: 100%;
+  height: 100%;
+}
+
+body .products .products-item .products-right .row .column #photos-3 {
+  width: 100%;
+  height: 100%;
+}
+
+body .products .products-item .products-right .row .column #photos-4 {
+  width: 100%;
+  height: 100%;
+}
+
+body .products .products-item .products-right .row .column #photos-5 {
+  width: 100%;
+  height: 100%;
+}
+
+body .customer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: auto;
+  background-color: #1D1D1D;
+}
+
+body .customer .cst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20%;
+  height: 200px;
+  color: white;
+}
+
+body .customer .cst h4 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  padding: 0;
+}
+
+body .customer .cst span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  margin-top: -20px;
+}
+
+body .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  height: auto;
+}
+
+body .form .form-image {
+  width: 50%;
+  height: 500px;
+}
+
+body .form .form-image img {
+  width: 100%;
+  height: 100%;
+}
+
+body .form .form-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  height: auto;
+}
+
+body .form .form-content .form-text {
+  width: 70%;
+  height: auto;
+}
+
+body .form .form-content .form-text h4, body .form .form-content .form-text p, body .form .form-content .form-text form {
+  padding-top: 10px;
+}
+
+body .form .form-content .form-text h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 33px;
+}
+
+body .form .form-content .form-text p {
+  font-family: "Playfair Display", serif;
+}
+
+body .form .form-content .form-text #email {
+  padding: 15px 100px;
+  border: 1px solid #1D1D1D;
+  border-radius: 20px;
+  outline: none;
+  text-align: left;
+}
+
+body .form .form-content .form-text #email::-webkit-input-placeholder {
+  position: absolute;
+  left: 0;
+  margin-left: 5px;
+}
+
+body .form .form-content .form-text #email:-ms-input-placeholder {
+  position: absolute;
+  left: 0;
+  margin-left: 5px;
+}
+
+body .form .form-content .form-text #email::-ms-input-placeholder {
+  position: absolute;
+  left: 0;
+  margin-left: 5px;
+}
+
+body .form .form-content .form-text #email::placeholder {
+  position: absolute;
+  left: 0;
+  margin-left: 5px;
+}
+
+body .form .form-content .form-text #btn {
+  padding: 15px 35px;
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+  margin-left: -100px;
+  background-color: #1005FF;
+  color: white;
+}
+
+body .vendor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F3F7F8;
+  width: 80%;
+  height: 273px;
+}
+
+body .vendor .mark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  height: auto;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: 298px;
+  background-color: #1D1D1D;
+}
+
+body footer .footer-top {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 40px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+body footer .footer-top .social {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body footer .footer-top .social a {
+  text-decoration: none;
+}
+
+body footer .footer-bottom {
+  margin-top: 20px;
+}
+
+body footer .footer-bottom p {
+  text-align: center;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.mobile-container .topnav {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.mobile-container .topnav #myLinks {
+  display: none;
+}
+
+.mobile-container .topnav #myLinks a {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mobile-container .topnav .topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.mobile-container .topnav .topnav a a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.mobile-container .topnav .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#mobile-menu {
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #1005FF;
+  color: white;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 887px) {
+  #mobile-menu {
+    display: none;
+  }
+  .mobile-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 887px) {
+  .menu-item {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1112px) {
+  .about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-text {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .about-img {
+    width: 100% !important;
+  }
+  .products-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .products-item .products-left {
+    width: 100% !important;
+  }
+  .products-item .products-right {
+    width: 100% !important;
+  }
+  .form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .form .form-image {
+    width: 100% !important;
+  }
+  .form .form-content {
+    width: 100% !important;
+  }
+  .form .form-content form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .form .form-content form #btn {
+    width: 100px;
+    padding: 10px !important;
+    border: none;
+    border-radius: 20px 20px 20px 20px !important;
+    margin-left: 0 !important;
+    background-color: #1005FF;
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .vendor .mark {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .vendor .mark img {
+    margin-bottom: 15px;
+  }
+  footer {
+    height: auto !important;
+  }
+  footer .footer-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footer-top .footer-logo, footer .footer-top .address, footer .footer-top .phone, footer .footer-top .social {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 536px) {
+  .about .about-img img {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .products-title {
+    padding: 0 !important;
+  }
+}
+
+@media screen and (max-width: 657px) {
+  header {
+    height: auto !important;
+    margin-bottom: 50px !important;
+  }
+  .about {
+    margin-bottom: 50px !important;
+  }
+  .row {
+    display: none !important;
+  }
+  .customer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 50px !important;
+  }
+  .customer .cst {
+    width: 100% !important;
+    height: 150px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
